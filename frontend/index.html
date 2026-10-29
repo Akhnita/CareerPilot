@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerPilot | Student Internship Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo"><span>C</span> CareerPilot</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#internships">Internships</a>
+      <a href="#applications">My Applications <span id="navCount">0</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="tag">YOUR CAREER STARTS HERE</span>
+        <h1>Find Your First<br><span>Big Opportunity.</span></h1>
+        <p>Discover internships, build real-world skills and take your first step towards the career you deserve.</p>
+        <a href="#internships" class="primary-btn">Explore Internships →</a>
+
+        <div class="stats">
+          <div><strong id="totalCount">4</strong><small>Opportunities</small></div>
+          <div><strong>3</strong><small>Career Fields</small></div>
+          <div><strong>100%</strong><small>Student Focused</small></div>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="art-circle">🚀</div>
+        <div class="floating-card">
+          <strong>✨ Your future awaits!</strong>
+          <p>Dream. Apply. Achieve.</p>
+        </div>
+        <div class="profile-card">
+          <div class="profile-icon">👩‍💻</div>
+          <h3>Ready to grow?</h3>
+          <p>Your next opportunity is just a click away.</p>
+          <div class="skills"><span>Learn</span><span>Build</span><span>Grow</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <article><span>🔎</span><div><h3>Discover</h3><p>Find internships that match your interests.</p></div></article>
+      <article><span>📄</span><div><h3>Apply</h3><p>Keep track of your selected opportunities.</p></div></article>
+      <article><span>📈</span><div><h3>Grow</h3><p>Gain experience and build your future.</p></div></article>
+    </section>
+
+    <section class="internships section" id="internships">
+      <div class="section-heading">
+        <div>
+          <span class="tag">OPPORTUNITIES FOR YOU</span>
+          <h2>Explore Internships</h2>
+          <p>Find a role where your journey can begin.</p>
+        </div>
+        <span class="count-label" id="resultCount">4 opportunities</span>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search role, company or location...">
+        <select id="categoryFilter">
+          <option value="All">All Categories</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Software Development">Software Development</option>
+          <option value="Design">Design</option>
+        </select>
+      </div>
+
+      <div class="job-grid" id="jobGrid"></div>
+    </section>
+
+    <section class="applications section" id="applications">
+      <span class="tag">YOUR PROGRESS</span>
+      <h2>My Applications</h2>
+      <p>Here are the internships you have selected.</p>
+      <div id="applicationList"></div>
+    </section>
+
+    <section class="cta">
+      <div><h2>Small steps. Big dreams.</h2><p>Start exploring opportunities and build your future today.</p></div>
+      <a href="#internships" class="primary-btn">Find Your Opportunity →</a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo"><span>C</span> CareerPilot</a>
+    <p>Helping students take their first step towards success.</p>
+    <small>© 2026 CareerPilot · Student Internship Portal</small>
+  </footer>
+
+</body>
+</html>
